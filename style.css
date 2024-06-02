@@ -17,7 +17,7 @@ body {
 button {
   font-size: 2rem;
   padding: 0.5em 1em;
-  background-color: transparent;
-  border: solid 0.1em hsla(0, 0%, 100%, 0.5);
+  background-color: #232C57;
+  border: solid 0.1em #35458B;
   border-radius: 1em;
 }
