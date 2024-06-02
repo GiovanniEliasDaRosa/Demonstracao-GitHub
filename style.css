@@ -14,10 +14,31 @@ body {
   background-color: hsl(218, 80%, 2%);
 }
 
+:focus {
+  outline: 0.2em solid white;
+}
+
 button {
   font-size: 2rem;
   padding: 0.5em 1em;
-  background-color: #232C57;
-  border: solid 0.1em #35458B;
+  background-color: #232c57;
+  border: solid 0.1em #35458b;
   border-radius: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #374278;
+  border: solid 0.1em #5d70c1;
+}
+
+button:active {
+  background-color: #232d60;
+  border: solid 0.1em #3b4c99;
+}
+
+button:focus-visible {
+  background-color: #9ca3c7;
+  border: solid 0.1em #d7d7eb;
+  color: #0a0a0a;
 }
