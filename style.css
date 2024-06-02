@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   color: hsl(0, 0%, 100%);
+  font-size: 1.25rem;
+  font-family: system-ui;
 }
 
 body {
@@ -12,12 +14,12 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
   background-color: hsl(218, 80%, 2%);
+  gap: 1em;
 }
 
 button {
-  font-size: 2rem;
-  padding: 0.5em 1em;
-  background-color: #232C57;
-  border: solid 0.1em #35458B;
-  border-radius: 1em;
+  padding: 0.4em 0.8em;
+  background-color: #232c57;
+  border: solid 0.1em #35458b;
+  border-radius: 0.5em;
 }
