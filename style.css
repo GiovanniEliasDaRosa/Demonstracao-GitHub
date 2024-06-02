@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: hsl(218, 80%, 2%);
+}
+
+button {
+  font-size: 2rem;
+  padding: 0.5em 1em;
+  background-color: transparent;
+  border: solid 0.1em hsla(0, 0%, 100%, 0.5);
+  border-radius: 1em;
+}
