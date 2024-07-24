@@ -1,5 +1,6 @@
 const botao = document.getElementById("botao");
 
 botao.addEventListener("click", () => {
-  alert("Botão clicado!");
+  let soma = 5 + 4;
+  alert("5 + 4 = " + soma);
 });
