@@ -1,5 +1,5 @@
-const botao = document.getElementById("botao");
+const button = document.querySelector("#botao");
 
-botao.addEventListener("click", () => {
-  alert("Botão clicado!");
-});
+button.onclick = () => {
+  alert("Button clicked!");
+};
